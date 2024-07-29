@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taarak Mehta Airing Status</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Taarak Mehta Ka Ooltah Chashmah Status</h1>
+    <img src="images/tmkoc logo.jpg" alt="Taarak Mehta Ka Ooltah Chashmah Logo" id="show-logo">
+    <h2 id="status"></h2>
+    <script src="script.js"></script>
+
+    <h3 id="running-time"></h3>
+
+    <form id="prediction-form">
+        <h3>Predict the End Date</h3>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="date" id="predicted-date" name="date" required>
+        <button type="submit">Submit Prediction</button>
+    </form>
+
+    <div class="correct-predictors">
+        <h3>Correct Predictions</h3>
+        <ul id="predictors-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
